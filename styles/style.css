@@ -1,0 +1,35 @@
+:root {
+    --bg-negro: #000;
+    --outputs: #E0B867;
+}
+
+h2 { color: red; }
+
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcecodepro/v4/mrl8jkM18OlOQN8JLgasDxM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+  }
+
+body { background-color: var(--bg-negro);}
+
+.output { 
+    color: var(--outputs);
+    font-family: 'Source Code Pro';
+}
+
+#input_text{
+    color: #E0B867;
+    background-color: #000;
+    border: 1px blue;
+}
+
+.user { font-weight: 800; }
+
+.user,
+#input_text {
+    font-size: 14px;
+    color: var(--outputs);
+    font-family: 'Source Code Pro';
+}
